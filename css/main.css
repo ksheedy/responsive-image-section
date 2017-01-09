@@ -47,6 +47,7 @@ p {
 
 a {
   background-color: #555;
+  text-align: center;
   padding: .5em .75em;
   border-radius: 4px;
   color: #fff;
@@ -54,6 +55,7 @@ a {
 }
 
 .img-flex {
+  display: block;
   width: 100%;
   padding: .5rem 0;
 }
@@ -71,6 +73,24 @@ a {
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  div {
+    display: inline-block;
+    max-width: 42%;
+  }
+
+  h1 {
+    padding: 1rem 0;
+  }
+
+  .img-flex {
+    max-width: 50%;
+    display: inline-block;
+  }
+
+  .img {
+    vertical-align: middle;
   }
 }
 
