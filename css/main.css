@@ -26,22 +26,36 @@ body {
   margin: 0;
 }
 
+div {
+  margin: 1rem;
+}
+
 h1 {
+  margin: 0;
+  padding-bottom: 1.25rem;
+}
+
+h2 {
+  font-size: 100%;
   margin: 0;
 }
 
 p {
   margin: 0;
+  padding-bottom: 2rem;
 }
 
 a {
   background-color: #555;
   padding: .5em .75em;
   border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
 }
 
-img {
+.img-flex {
   width: 100%;
+  padding: .5rem 0;
 }
 
 @media only screen and (min-width: 25em) {
